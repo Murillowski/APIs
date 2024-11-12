@@ -1,0 +1,82 @@
+[
+  {
+    "ContainingType": "ExercicioApi.Controllers.ReceitaController",
+    "Method": "ListarTodas",
+    "RelativePath": "Receita",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExercicioApi.Controllers.ReceitaController",
+    "Method": "Post",
+    "RelativePath": "Receita",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novaReiceita",
+        "Type": "ExercicioApi.Receita",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExercicioApi.Controllers.ReceitaController",
+    "Method": "Put",
+    "RelativePath": "Receita/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "receitaAtualizada",
+        "Type": "ExercicioApi.Receita",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExercicioApi.Controllers.ReceitaController",
+    "Method": "Delete",
+    "RelativePath": "Receita/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExercicioApi.Controllers.ReceitaController",
+    "Method": "Get",
+    "RelativePath": "Receita/{imc}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imc",
+        "Type": "System.Double",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetReceita"
+  }
+]

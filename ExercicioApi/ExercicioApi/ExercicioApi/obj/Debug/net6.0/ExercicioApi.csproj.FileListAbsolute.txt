@@ -1,0 +1,64 @@
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\bin\Debug\net6.0\appsettings.json
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\bin\Debug\net6.0\ExercicioApi.exe
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\bin\Debug\net6.0\ExercicioApi.deps.json
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\bin\Debug\net6.0\ExercicioApi.runtimeconfig.json
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\bin\Debug\net6.0\ExercicioApi.dll
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\bin\Debug\net6.0\ExercicioApi.pdb
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.csproj.AssemblyReference.cache
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.AssemblyInfoInputs.cache
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.AssemblyInfo.cs
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.csproj.CoreCompileInputs.cache
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets\msbuild.ExercicioApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets\msbuild.build.ExercicioApi.props
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ExercicioApi.props
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ExercicioApi.props
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\scopedcss\bundle\ExercicioApi.styles.css
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\Exercici.66E4992B.Up2Date
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.dll
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\refint\ExercicioApi.dll
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.pdb
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.genruntimeconfig.cache
+C:\Users\0040482411025\Documents\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ref\ExercicioApi.dll
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\bin\Debug\net6.0\appsettings.json
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\bin\Debug\net6.0\ExercicioApi.exe
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\bin\Debug\net6.0\ExercicioApi.deps.json
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\bin\Debug\net6.0\ExercicioApi.runtimeconfig.json
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\bin\Debug\net6.0\ExercicioApi.dll
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\bin\Debug\net6.0\ExercicioApi.pdb
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.csproj.AssemblyReference.cache
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.AssemblyInfoInputs.cache
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.AssemblyInfo.cs
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.csproj.CoreCompileInputs.cache
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets\msbuild.ExercicioApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets\msbuild.build.ExercicioApi.props
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ExercicioApi.props
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ExercicioApi.props
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\scopedcss\bundle\ExercicioApi.styles.css
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\Exercici.66E4992B.Up2Date
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.dll
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\refint\ExercicioApi.dll
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.pdb
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ExercicioApi.genruntimeconfig.cache
+C:\Users\mimor\OneDrive\Área de Trabalho\ExercicioApi\ExercicioApi\ExercicioApi\obj\Debug\net6.0\ref\ExercicioApi.dll
