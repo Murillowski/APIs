@@ -1,0 +1,82 @@
+[
+  {
+    "ContainingType": "GameApi.Controllers.GameBalanceController",
+    "Method": "ListAll",
+    "RelativePath": "GameBalance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameApi.Controllers.GameBalanceController",
+    "Method": "Post",
+    "RelativePath": "GameBalance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newGame",
+        "Type": "GameBalanceAPI.GameBalance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameApi.Controllers.GameBalanceController",
+    "Method": "Put",
+    "RelativePath": "GameBalance/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedGame",
+        "Type": "GameBalanceAPI.GameBalance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameApi.Controllers.GameBalanceController",
+    "Method": "Delete",
+    "RelativePath": "GameBalance/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameApi.Controllers.GameBalanceController",
+    "Method": "GetGameSuggestion",
+    "RelativePath": "GameBalance/Sugerir/{freeSpaceGB}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "freeSpaceGB",
+        "Type": "System.Double",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetGameSuggestion"
+  }
+]

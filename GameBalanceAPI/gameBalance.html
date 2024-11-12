@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Jogos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Gerenciador de Jogos</h1>
+
+        <!-- Sugerir Jogo com base no espaço disponível -->
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Sugerir Jogo com base no espaço disponível</h5>
+                <div class="form-group">
+                    <label for="inputFreeSpace">Espaço livre no disco (GB)</label>
+                    <input type="number" class="form-control" id="inputFreeSpace" placeholder="Insira o espaço livre em GB">
+                </div>
+                <button class="btn btn-primary" onclick="sugerirJogo()">Sugerir Jogo</button>
+                <div class="mt-3" id="resultadoJogo"></div>
+            </div>
+        </div>
+
+        <!-- Listagem de Jogos -->
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Lista de Jogos</h5>
+                <button class="btn btn-success mb-3" onclick="listarJogos()">Atualizar Lista</button>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Gênero</th>
+                            <th>Tamanho (GB)</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaJogos">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Formulário para Inserir/Editar Jogo -->
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5 class="card-title">Inserir/Editar Jogo</h5>
+                <div class="form-group">
+                    <label for="gameId">ID do Jogo</label>
+                    <input type="text" class="form-control" id="gameId" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="nomeJogo">Nome do Jogo</label>
+                    <input type="text" class="form-control" id="nomeJogo">
+                </div>
+                <div class="form-group">
+                    <label for="generoJogo">Gênero</label>
+                    <input type="text" class="form-control" id="generoJogo">
+                </div>
+                <div class="form-group">
+                    <label for="tamanhoJogo">Tamanho (GB)</label>
+                    <input type="number" class="form-control" id="tamanhoJogo">
+                </div>
+                <button class="btn btn-primary" onclick="salvarJogo()">Salvar Jogo</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const apiBaseUrl = "https://localhost:7113";  // Atualizar a URL da sua API
+
+        // Função para sugerir um jogo com base no espaço livre
+        function sugerirJogo() {
+            const freeSpace = parseFloat(document.getElementById('inputFreeSpace').value);
+
+            if (!freeSpace) {
+                alert("Insira um valor válido de espaço livre.");
+                return;
+            }
+
+            fetch(`${apiBaseUrl}/GameBalance/Sugerir/${freeSpace}`)
+                .then(response => response.json())
+                .then(game => {
+                    document.getElementById('resultadoJogo').innerHTML = `
+                        <h5>Jogo Sugerido:</h5>
+                        <p><strong>ID:</strong> ${game.gameId}</p>
+                        <p><strong>Nome:</strong> ${game.name}</p>
+                        <p><strong>Gênero:</strong> ${game.genre}</p>
+                        <p><strong>Tamanho:</strong> ${game.sizeGB} GB</p>
+                    `;
+                })
+                .catch(error => console.error('Erro:', error));
+        }
+
+        // Função para listar todos os jogos
+        function listarJogos() {
+            fetch(`${apiBaseUrl}/GameBalance`)
+                .then(response => response.json())
+                .then(games => {
+                    const lista = document.getElementById('listaJogos');
+                    lista.innerHTML = '';
+
+                    games.forEach(game => {
+                        lista.innerHTML += `
+                            <tr>
+                                <td>${game.gameId}</td>
+                                <td>${game.name}</td>
+                                <td>${game.genre}</td>
+                                <td>${game.sizeGB}</td>
+                                <td>
+                                    <button class="btn btn-info" onclick="editarJogo(${game.gameId})">Editar</button>
+                                    <button class="btn btn-danger" onclick="excluirJogo(${game.gameId})">Excluir</button>
+                                </td>
+                            </tr>
+                        `;
+                    });
+                })
+                .catch(error => console.error('Erro:', error));
+        }
+
+        // Função para salvar (inserir ou editar) jogo
+        function salvarJogo() {
+            const nomeJogo = document.getElementById('nomeJogo').value;
+            const generoJogo = document.getElementById('generoJogo').value;
+            const tamanhoJogo = parseFloat(document.getElementById('tamanhoJogo').value);
+            const gameId = document.getElementById('gameId').value;
+
+            const game = {
+                Name: nomeJogo,
+                Genre: generoJogo,
+                SizeGB: tamanhoJogo
+            };
+
+            if (gameId) {
+                // Editar jogo existente
+                fetch(`${apiBaseUrl}/GameBalance/${gameId}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(game)
+                })
+                .then(() => {
+                    alert('Jogo atualizado com sucesso!');
+                    listarJogos();
+                    limparFormulario();
+                })
+                .catch(error => console.error('Erro:', error));
+            } else {
+                // Inserir novo jogo
+                fetch(`${apiBaseUrl}/GameBalance`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(game)
+                })
+                .then(() => {
+                    alert('Jogo inserido com sucesso!');
+                    listarJogos();
+                    limparFormulario();
+                })
+                .catch(error => console.error('Erro:', error));
+            }
+        }
+
+        // Função para editar jogo
+        function editarJogo(id) {
+            fetch(`${apiBaseUrl}/GameBalance/${id}`)
+            .then(response => response.json())
+            .then(game => {
+                document.getElementById('gameId').value = game.gameId;
+                document.getElementById('nomeJogo').value = game.name;
+                document.getElementById('generoJogo').value = game.genre;
+                document.getElementById('tamanhoJogo').value = game.sizeGB;
+            })
+            .catch(error => console.error('Erro:', error));
+        }
+
+        // Função para excluir jogo
+        function excluirJogo(id) {
+            if (confirm('Tem certeza que deseja excluir esse jogo?')) {
+                fetch(`${apiBaseUrl}/GameBalance/${id}`, {
+                    method: 'DELETE'
+                })
+                .then(() => {
+                    alert('Jogo excluído com sucesso!');
+                    listarJogos();
+                })
+                .catch(error => console.error('Erro:', error));
+            }
+        }
+
+        // Limpar formulário
+        function limparFormulario() {
+            document.getElementById('gameId').value = '';
+            document.getElementById('nomeJogo').value = '';
+            document.getElementById('generoJogo').value = '';
+            document.getElementById('tamanhoJogo').value = '';
+        }
+
+        // Carregar lista de jogos ao carregar a página
+        window.onload = listarJogos;
+    </script>
+</body>
+</html>

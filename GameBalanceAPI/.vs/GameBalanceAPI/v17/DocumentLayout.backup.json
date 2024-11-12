@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mimor\\OneDrive\\Documentos\\Workshop API\u0027s\\GameBalanceAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4820DD1D-C14F-4EE2-B5A1-7F20F8299427}|GameBalanceAPI\\GameBalanceAPI.csproj|c:\\users\\mimor\\onedrive\\documentos\\workshop api\u0027s\\gamebalanceapi\\gamebalanceapi\\controllers\\gamebalancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4820DD1D-C14F-4EE2-B5A1-7F20F8299427}|GameBalanceAPI\\GameBalanceAPI.csproj|solutionrelative:gamebalanceapi\\controllers\\gamebalancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4820DD1D-C14F-4EE2-B5A1-7F20F8299427}|GameBalanceAPI\\GameBalanceAPI.csproj|c:\\users\\mimor\\onedrive\\documentos\\workshop api\u0027s\\gamebalanceapi\\gamebalanceapi\\gamebalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4820DD1D-C14F-4EE2-B5A1-7F20F8299427}|GameBalanceAPI\\GameBalanceAPI.csproj|solutionrelative:gamebalanceapi\\gamebalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4820DD1D-C14F-4EE2-B5A1-7F20F8299427}|GameBalanceAPI\\GameBalanceAPI.csproj|c:\\users\\mimor\\onedrive\\documentos\\workshop api\u0027s\\gamebalanceapi\\gamebalanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4820DD1D-C14F-4EE2-B5A1-7F20F8299427}|GameBalanceAPI\\GameBalanceAPI.csproj|solutionrelative:gamebalanceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mimor\\OneDrive\\Documentos\\Workshop API\u0027s\\GameBalanceAPI\\GameBalanceAPI\\Program.cs",
+              "RelativeDocumentMoniker": "GameBalanceAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\mimor\\OneDrive\\Documentos\\Workshop API\u0027s\\GameBalanceAPI\\GameBalanceAPI\\Program.cs",
+              "RelativeToolTip": "GameBalanceAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:58:59.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameBalance.cs",
+              "DocumentMoniker": "C:\\Users\\mimor\\OneDrive\\Documentos\\Workshop API\u0027s\\GameBalanceAPI\\GameBalanceAPI\\GameBalance.cs",
+              "RelativeDocumentMoniker": "GameBalanceAPI\\GameBalance.cs",
+              "ToolTip": "C:\\Users\\mimor\\OneDrive\\Documentos\\Workshop API\u0027s\\GameBalanceAPI\\GameBalanceAPI\\GameBalance.cs",
+              "RelativeToolTip": "GameBalanceAPI\\GameBalance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T03:14:38.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameBalanceController.cs",
+              "DocumentMoniker": "C:\\Users\\mimor\\OneDrive\\Documentos\\Workshop API\u0027s\\GameBalanceAPI\\GameBalanceAPI\\Controllers\\GameBalanceController.cs",
+              "RelativeDocumentMoniker": "GameBalanceAPI\\Controllers\\GameBalanceController.cs",
+              "ToolTip": "C:\\Users\\mimor\\OneDrive\\Documentos\\Workshop API\u0027s\\GameBalanceAPI\\GameBalanceAPI\\Controllers\\GameBalanceController.cs",
+              "RelativeToolTip": "GameBalanceAPI\\Controllers\\GameBalanceController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T03:19:31.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
